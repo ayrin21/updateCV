@@ -1,0 +1,34 @@
+img {
+  float: right;
+  margin-top: -72px;
+  display: inline-block;
+  max-width: 40%;
+}
+* {
+  font-family: "Roboto", sans-serif;
+  /* font-size: 18px; */
+}
+.same {
+  background-color: lightcoral;
+  display: block;
+  height: 40px;
+  line-height: 40px;
+  text-transform: uppercase;
+  border: 2px solid black;
+  outline: 2px solid red;
+  outline-offset: 1px;
+}
+#head {
+  background-color: lightskyblue;
+  width: 59%;
+  height: 50px;
+  line-height: 50px;
+  border: 1px solid blue;
+  text-align: center;
+  font-size: 30px;
+}
+@media screen and (min-width: 576px) {
+  img {
+    max-width: 20%;
+  }
+}
